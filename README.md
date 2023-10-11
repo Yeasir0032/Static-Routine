@@ -2,6 +2,8 @@
 Static Routine is an Android application that helps students keep track of their schedules by displaying the daily routine for their school. 
 This app is designed to simplify the process of checking your class schedule.<br>
 
+![CoverImage](https://i.ibb.co/gDdqwJB/Screenshot-20231012-000906-Routine.jpg)
+
 ## Table of Contents
 
 - [Features](#features)
