@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="?colorPrimary"
+    tools:context=".MainActivity">
+    <Spinner
+        android:id="@+id/spinnerDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:spinnerMode="dropdown" />
+    <LinearLayout
+        android:id="@+id/linearFirst"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:background="@drawable/layout_design"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="00:00"
+            android:textSize="14sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="First Subject"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/details1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Details"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearSecond"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:background="@drawable/layout_design"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="00:00"
+            android:textSize="14sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Second Subject"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/details2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Details"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/layout_design"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/time3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="00:00"
+            android:textSize="14sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Third Subject"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/details3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Details"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearFourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:background="@drawable/layout_design"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/time4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="00:00"
+            android:textSize="14sp"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Fourth Subject"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/details4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Details"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
