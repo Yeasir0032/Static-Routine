@@ -69,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
             case "Friday":
                 spn.setSelection(4);
                 break;
+            case "Saturday":
+                spn.setSelection(5);
+            case "Sunday":
+                spn.setSelection(6);
             default:
                 spn.setSelection(0);
                 break;
@@ -78,86 +82,136 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 switch(i) {
                     case (0): {
+                        //MONDAY ROUTINE
                         time1.setText("10:00 am - 11:40 am");
                         time2.setText("11:40 am - 01:20 pm");
-                        time3.setText("01:50 pm - 02:40 pm");
-                        time4.setText("02:40 pm - 04:20 pm");
-                        name1.setText("Basic Electrical Engineering");
-                        name2.setText("Engineering Chemistry");
-                        name3.setText("Programming in C");
-                        name4.setText("Tutorial/Remedial classes");
-                        details1.setText("EENUGES01");
-                        details2.setText("CHMUGBS01");
-                        details3.setText("CSEUGES01");
+                        time3.setText("01:50 pm - 03:30 pm");
+                        time4.setText("03:30 pm - 05:10 pm");
+                        name1.setText("INDIAN CONSTITUTION");
+                        name2.setText("SIGNALS AND NETWORKS");
+                        name3.setText("ENGINEERING MATHEMATICS III");
+                        name4.setText("REMEDIAL CLASSES");
+                        details1.setText("UCCUGAU03");
+                        details2.setText("ECEUGPC02");
+                        details3.setText("MATUGBS03");
                         details4.setText("");
                         linearFourth.setVisibility(View.VISIBLE);
                         linearThird.setVisibility(View.VISIBLE);
                         linearSecond.setVisibility(View.VISIBLE);
+                        linearFirst.setVisibility(View.VISIBLE);
                         break;
                     }
                     case (1): {
+                        //TUESDAY ROUTINE
                         time1.setText("10:00 am - 11:40 am");
                         time2.setText("11:40 am - 01:20 pm");
-                        time3.setText("01:50 pm - 02:40 pm");
-                        time4.setText("02:40 pm - 04:20 pm");
-                        name1.setText("Communicative English");
-                        name2.setText("Engineering Mathematics II");
-                        name3.setText("Engineering Chemistry");
-                        name4.setText("Tutorial/Remedial classes");
-                        details1.setText("ENGUGHU01");
-                        details2.setText("MATUGBS02");
-                        details3.setText("CHMUGBS01");
+                        time3.setText("01:50 pm - 03:30 pm");
+                        time4.setText("03:30 pm - 05:10 pm");
+                        name1.setText("ENGINEERING MATHEMATICS III");
+                        name2.setText("PHYSICS OF SEMICONDUCTOR DEVICES");
+                        name3.setText("ANALOG ELECTRONICS");
+                        name4.setText("REMEDIAL CLASSES");
+                        details1.setText("MATUGBS03");
+                        details2.setText("ECEUGPC03");
+                        details3.setText("ECEUGPC01");
                         details4.setText("");
                         linearFourth.setVisibility(View.VISIBLE);
                         linearThird.setVisibility(View.VISIBLE);
                         linearSecond.setVisibility(View.VISIBLE);
+                        linearFirst.setVisibility(View.VISIBLE);
                         break;
                     }
                     case (2): {
-                        time1.setText("10:50 am - 01:20 pm");
-                        time2.setText("01:50 pm - 03:30 pm");
-                        time3.setText("03:30 pm - 05:10 pm");
-                        name1.setText("Engineering Chemistry Lab");
-                        name2.setText("Engineering Mathematics II");
-                        name3.setText("Communicative English Lab");
-                        details1.setText("CHMUGBS02");
-                        details2.setText("MATUGBS02");
-                        details3.setText("ENGUGHU02");
+                        //WEDNESDAY ROUTINE
+                        time1.setText(" ");
+                        time2.setText("10:50 am - 01:20 am ");
+                        time3.setText("01:50 pm - 02:40 pm");
+                        time4.setText("");
+                        name1.setText("");
+                        name2.setText("ANALOG ELECTRONICS LAB");
+                        name3.setText("PHYSICS OF SEMICONDUCTOR DEVICES");
+                        details1.setText("");
+                        details2.setText("ECEUGPC04");
+                        details3.setText("ECEUGPC03");
                         linearFourth.setVisibility(View.GONE);
+                        linearFirst.setVisibility(View.GONE);
                         linearThird.setVisibility(View.VISIBLE);
                         linearSecond.setVisibility(View.VISIBLE);
                         break;
                     }
                     case (3): {
-                        time1.setText("10:00 am - 10:50 am");
-                        time2.setText("10:50 am - 01:20 pm");
+                        //THURSDAY ROUTINE
+                        time1.setText("10:50 am - 11:40 am");
+                        time2.setText("11:40 am - 01:20 pm");
                         time3.setText("01:50 pm - 04:20 pm");
-                        name1.setText("Basic Electrical Engineering");
-                        name2.setText("Mechanical Lab");
-                        name3.setText("Basic Electrical Engineering Lab");
-                        details1.setText("EENUGES01");
-                        details2.setText("MENUGES02");
-                        details3.setText("EENUGES02");
-                        linearFourth.setVisibility(View.GONE);
+                        time4.setText("04:20 pm- 05:10 pm");
+                        name1.setText("ANALOG ELECTRONICS");
+                        name2.setText("DADA STRUCTURE AND ALGORITHMS ANALYSIS");
+                        name3.setText("DIGITAL LOGIC");
+                        name4.setText("REMEDIAL CLASS");
+                        details1.setText("ECEUGPC01");
+                        details2.setText("CSEUGOE01");
+                        details3.setText("CSEUGPC02");
+                        details4.setText("");
+                        linearFourth.setVisibility(View.VISIBLE);
                         linearThird.setVisibility(View.VISIBLE);
                         linearSecond.setVisibility(View.VISIBLE);
+                        linearFirst.setVisibility(View.VISIBLE);
                         break;
                     }
                     case (4): {
-                        time1.setText("10:00 am - 10:50 am");
-                        time2.setText("10:50 am - 12:30 pm");
-                        time3.setText("01:50 pm - 05:10 pm");
-                        name1.setText("Communicative English");
-                        name2.setText("Programming in C");
-                        name3.setText("Programming Lab");
-                        details1.setText("ENGUGHU01");
-                        details2.setText("CSEUGES01");
-                        details3.setText("CSEUGES02");
+                        //FRIDAY ROUTINE
+                        time1.setText("10:50 am - 11:40 am");
+                        time2.setText("11:40 am - 12:30 pm");
+                        time3.setText("01:50 pm - 01:50 - 04:20 pm");
+                        name1.setText("SIGNALS AND NETWORKS");
+                        name2.setText("DATA STRUCTURE AND ALGORITHMS ANALYSIS");
+                        name3.setText("MICROPROCESSOR AND MICROMETER LAB");
+                        details1.setText("ECEUGPC02");
+                        details2.setText("CSEUGOU01");
+                        details3.setText("ECEUGPC14");
                         linearFourth.setVisibility(View.GONE);
                         linearThird.setVisibility(View.VISIBLE);
                         linearSecond.setVisibility(View.VISIBLE);
+                        linearFirst.setVisibility(View.VISIBLE);
                         break;
                     }
+                    case (5): {
+                        //SATURDAY ROUTINE
+                        time1.setText("");
+                        time2.setText("");
+                        time3.setText("");
+                        name1.setText("ABE!! PADHAI CHODO ,WEEKEND HAI MAJE KARO.....");
+                        name2.setText("DATA STRUCTURE AND ALGORITHMS ANALYSIS");
+                        name3.setText("MICROPROCESSOR AND MICROMETER LAB");
+                        details1.setText("");
+                        details2.setText("CSEUGOU01");
+                        details3.setText("ECEUGPC14");
+                        linearFourth.setVisibility(View.GONE);
+                        linearThird.setVisibility(View.GONE);
+                        linearSecond.setVisibility(View.GONE);
+                        linearFirst.setVisibility(View.VISIBLE);
+                        break;
+                    }
+                    case (6): {
+                        //SUNDAY ROUTINE
+                        time1.setText("");
+                        time2.setText("");
+                        time3.setText("");
+                        name1.setText("KAL SE PADHAI KARENGE");
+                        name2.setText("DATA STRUCTURE AND ALGORITHMS ANALYSIS");
+                        name3.setText("MICROPROCESSOR AND MICROMETER LAB");
+                        details1.setText("WO KAL KABHI NAHI AYEGA.....");
+                        details2.setText("CSEUGOU01");
+                        details3.setText("ECEUGPC14");
+                        linearFourth.setVisibility(View.GONE);
+                        linearThird.setVisibility(View.GONE);
+                        linearSecond.setVisibility(View.GONE);
+                        linearFirst.setVisibility(View.VISIBLE);
+                        break;
+                    }
+
+
                 }
             }
 
